@@ -27,7 +27,7 @@
         <div class="container">
             <div class="privacy-content">
                 <h1>Privacy Policy</h1>
-                <p class="privacy-date">Last updated: July 23, 2026</p>
+                <p class="privacy-date">Last updated: September 11, 2026</p>
 
                 <h2>Introduction</h2>
                 <p>Ebaid LLC ("we," "our," or "us") respects your privacy and is committed to protecting the personal information you share with us. This Privacy Policy explains how our mobile applications and services collect, use, and safeguard your information.</p>
@@ -41,8 +41,9 @@
 
                 <h3>Information Collected Automatically</h3>
                 <ul>
-                    <li>Device type and operating system version</li>
-                    <li>App usage analytics (crash reports, performance data)</li>
+                    <li>Ordinary technical request information when the apps retrieve online content, such as IP address, request headers, timestamps, and the resource requested</li>
+                    <li>App verification material used to confirm the request comes from a genuine, unmodified app (see <a href="#app-attestation">App Attestation</a> below)</li>
+                    <li>Our apps do <strong>not</strong> use analytics, crash-reporting, advertising, or cross-app tracking SDKs</li>
                     <li>We do NOT collect location data, contacts, photos, or other sensitive device data</li>
                 </ul>
 
@@ -50,7 +51,7 @@
                 <ul>
                     <li>To provide and maintain app functionality</li>
                     <li>To save your preferences and reading progress locally on your device</li>
-                    <li>To improve app performance and fix bugs</li>
+                    <li>To deliver requested content, prevent abuse, and diagnose service failures</li>
                     <li>To respond to your support requests</li>
                 </ul>
 
@@ -62,15 +63,19 @@
                 <ul>
                     <li><strong>Quran APIs</strong> — to retrieve Quran text, translations, and tafseer content</li>
                     <li><strong>Audio CDNs</strong> — to stream recitation audio</li>
-                    <li><strong>Firebase Crashlytics</strong> (if enabled) — for anonymous crash reporting</li>
+                    <li><strong>Apple App Attest and Google Play Integrity</strong> — to verify app authenticity (see below)</li>
                 </ul>
                 <p>These services have their own privacy policies. We encourage you to review them.</p>
+
+                <h2 id="app-attestation">App Attestation</h2>
+                <p>Our apps connect to online content through a proxy service we operate, which keeps API credentials out of the app. To confirm that requests come from a genuine, unmodified copy of the app, we use platform app attestation — <strong>Apple App Attest</strong> on iOS and the <strong>Google Play Integrity API</strong> on Android.</p>
+                <p>These checks report only whether the app and device pass integrity verification. The Play Integrity token does <strong>not</strong> identify your Google account, and no attestation material identifies you personally.</p>
 
                 <h2>Children's Privacy</h2>
                 <p>Our apps do not knowingly collect personal information from children under 13. The apps are educational in nature and designed to be safe for all ages.</p>
 
                 <h2>Data Sharing</h2>
-                <p>We do <strong>not</strong> sell, trade, or share your personal information with third parties for marketing purposes. We may share anonymous, aggregated analytics data to improve our services.</p>
+                <p>We do <strong>not</strong> sell, trade, or share your personal information with third parties for marketing, advertising, behavioral profiling, or data-broker purposes. We do not collect analytics data to share. Information may be disclosed if required by law or reasonably necessary to protect our apps, their users, or our service providers.</p>
 
                 <h2>Your Rights</h2>
                 <p>You can:</p>
