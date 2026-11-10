@@ -248,6 +248,56 @@ body {
     line-height: 1.7;
 }
 
+.service-link {
+    display: inline-block;
+    margin-top: 16px;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* ===== Service Pages ===== */
+.service-page {
+    padding-top: 140px;
+}
+
+.service-content {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.service-content h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.2;
+    margin: 16px 0 24px;
+}
+
+.service-content h2 {
+    margin: 36px 0 16px;
+}
+
+.service-content h3 {
+    margin: 24px 0 12px;
+}
+
+.service-content p,
+.service-content ul,
+.service-content ol {
+    margin-bottom: 16px;
+}
+
+.service-content ul,
+.service-content ol {
+    padding-left: 24px;
+}
+
+.service-content li {
+    margin-bottom: 12px;
+}
+
+.service-content a:not(.btn) {
+    color: var(--primary);
+}
+
 /* ===== Apps ===== */
 .app-card {
     display: flex;
