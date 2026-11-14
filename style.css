@@ -312,6 +312,10 @@ body {
     box-shadow: var(--shadow);
 }
 
+.app-card + .app-card {
+    margin-top: 24px;
+}
+
 .app-icon {
     font-size: 2.5rem;
     flex-shrink: 0;
